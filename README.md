@@ -1,6 +1,8 @@
 # Homework Six
 
-This repository contains the HTML, CSS, and SCSS files for the homework six project. It includes multiple pages representing different countries, as well as styling and assets.
+This repository contains the HTML, CSS, and SCSS files for the homework six project. It includes multiple pages representing different countries, as well as styling and assets. 
+
+https://in-info-web4.luddy.indianapolis.iu.edu/~aadesaki/homework-seven/
 
 ## Structure
 
