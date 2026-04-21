@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: GillSansReg;
 }
 
@@ -36,15 +35,9 @@ h1, h2, h3, h4, h5, h6, p {
   height: 90px;
   margin: 0 auto;
   border-bottom: solid 2px white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 .navWrapper nav .logo {
   position: relative;
@@ -61,11 +54,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .navWrapper nav .links {
   width: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 .navWrapper nav .links a {
   text-decoration: none;
@@ -78,21 +68,14 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .hero {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/hero.jpg);
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/hero\ \(1\).jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   min-height: 500px;
 }
 .hero .centered-content {
@@ -128,24 +111,17 @@ h1, h2, h3, h4, h5, h6, p {
   margin: -50px auto -100px auto;
 }
 .learn-more .images {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .learn-more .images .image-one {
   width: 236px;
   height: 304px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour-01.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .learn-more .images .image-one .header {
   text-align: center;
@@ -175,7 +151,6 @@ h1, h2, h3, h4, h5, h6, p {
 .learn-more .images .image-two {
   width: 236px;
   height: 304px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour-02.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-02.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -209,7 +184,6 @@ h1, h2, h3, h4, h5, h6, p {
 .learn-more .images .image-three {
   width: 236px;
   height: 304px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour-03.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-03.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -253,8 +227,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .booking-form .form .input-wrapper {
   max-width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .booking-form .form .input-wrapper .name-field {
@@ -277,8 +249,6 @@ h1, h2, h3, h4, h5, h6, p {
 .booking-form .form .input-wrapper-two {
   margin-top: 20px;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .booking-form .form .input-wrapper-two .country-field {
@@ -312,8 +282,7 @@ h1, h2, h3, h4, h5, h6, p {
   border: none;
   margin-left: 50px;
   font-family: GillSansLight;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .booking-form .form .input-wrapper-three .icon {
   position: absolute;
@@ -335,8 +304,7 @@ h1, h2, h3, h4, h5, h6, p {
   border: none;
   margin-left: 38px;
   font-family: GillSansLight;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .booking-form .form .input-wrapper-four .icon {
   position: absolute;
@@ -348,14 +316,10 @@ h1, h2, h3, h4, h5, h6, p {
   margin-top: 20px;
   width: 100%;
   position: relative;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   font-size: 18px;
   font-family: GillSansLight;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .booking-form .form .input-wrapper-five .adult-holder {
   font-family: GillSansLight;
@@ -368,8 +332,7 @@ h1, h2, h3, h4, h5, h6, p {
   outline: solid 1px #79ADDC;
   border: none;
   font-family: GillSansLight;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .booking-form .form .input-wrapper-five .children-holder {
   font-family: GillSansLight;
@@ -382,8 +345,7 @@ h1, h2, h3, h4, h5, h6, p {
   outline: solid 1px #79ADDC;
   border: none;
   font-family: GillSansLight;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .booking-form .form .input-wrapper-five .rooms-holder {
   font-family: GillSansLight;
@@ -396,8 +358,7 @@ h1, h2, h3, h4, h5, h6, p {
   outline: solid 1px #79ADDC;
   border: none;
   font-family: GillSansLight;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .booking-form .form .input-wrapper-five .icon1 {
   position: absolute;
@@ -448,15 +409,9 @@ footer .centered-content {
   padding-top: 25px;
   max-width: 980px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 footer .centered-content .logo {
   position: relative;
@@ -478,12 +433,8 @@ footer .centered-content .copyright {
 }
 footer .centered-content .social-media {
   width: 112px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 footer .centered-content .social-media .icon {
   height: 22.96px;
@@ -516,12 +467,8 @@ footer .centered-content .social-media .icon {
   footer .centered-content {
     width: 300px;
     margin: 0 auto;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 }
 @media only all and (max-width: 980px) {
@@ -559,12 +506,8 @@ footer .centered-content .social-media .icon {
 }
 @media only all and (max-width: 1034px) {
   .learn-more .images {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
     width: 236px;
     margin: 0 auto;
   }
@@ -581,15 +524,11 @@ footer .centered-content .social-media .icon {
   }
   .booking-form .input-wrapper-three {
     margin-left: 0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: relative;
   }
   .booking-form .input-wrapper-four {
     margin-left: 0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: relative;
   }
@@ -609,15 +548,11 @@ footer .centered-content .social-media .icon {
   }
   .booking-form .input-wrapper-three {
     margin-left: 0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: relative;
   }
   .booking-form .input-wrapper-four {
     margin-left: 0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: relative;
   }
@@ -637,37 +572,27 @@ footer .centered-content .social-media .icon {
   }
   .booking-form .input-wrapper-three {
     margin-left: 0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: relative;
   }
   .booking-form .input-wrapper-four {
     margin-left: 0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: relative;
   }
   .booking-form .input-wrapper-five {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   .booking-form .input-wrapper-five .adult-holder {
     margin-bottom: 20px;
   }
   .booking-form .input-wrapper-five .children-holder {
     margin-bottom: 20px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
   }
   .booking-form .input-wrapper-five .rooms-holder {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
   }
   .booking-form .input-wrapper-five .icon1 {
     display: none;
@@ -689,15 +614,9 @@ footer .centered-content .social-media .icon {
   height: 90px;
   margin: 0 auto;
   border-bottom: solid 2px black;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 .aboutNavWrapper nav .logo {
   position: relative;
@@ -714,11 +633,8 @@ footer .centered-content .social-media .icon {
 }
 .aboutNavWrapper nav .links {
   width: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 .aboutNavWrapper nav .links a {
   text-decoration: none;
@@ -774,8 +690,6 @@ footer .centered-content .social-media .icon {
   min-height: 150px;
   margin-top: 40px;
   padding-left: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
 }
@@ -812,8 +726,6 @@ footer .centered-content .social-media .icon {
   min-height: 150px;
   margin-top: 30px;
   padding-left: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
 }
@@ -851,7 +763,6 @@ footer .centered-content .social-media .icon {
     width: 400px;
     margin: 0 auto;
   }
-
   .client-quotes {
     width: 400px;
     margin: 0 auto;
@@ -860,12 +771,8 @@ footer .centered-content .social-media .icon {
     padding-left: 0px;
     margin: 40px 65px 20px 65px;
     width: 400px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
   .client-quotes .miranda .miranda-image {
     width: 260px;
@@ -888,12 +795,8 @@ footer .centered-content .social-media .icon {
     padding-left: 0px;
     margin: 40px 65px 50px 65px;
     width: 400px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
   .client-quotes .johnathan .johnathan-image {
     width: 260px;
@@ -925,19 +828,12 @@ footer .centered-content .social-media .icon {
   max-width: 980px;
   height: 200px;
   margin: 0 auto;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tours-header.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tours-header.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
+  justify-content: center;
   display: flex;
 }
 .tours-hero .centered-content {
@@ -957,24 +853,17 @@ footer .centered-content .social-media .icon {
   padding-top: 10px;
 }
 .tours-row-one .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .tours-row-one .row .image-one {
   width: 236px;
   height: 304px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour-01.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .tours-row-one .row .image-one .header {
   text-align: center;
@@ -1004,14 +893,11 @@ footer .centered-content .social-media .icon {
 .tours-row-one .row .image-two {
   width: 236px;
   height: 304px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour-02.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-02.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .tours-row-one .row .image-two .header {
   text-align: center;
@@ -1041,14 +927,11 @@ footer .centered-content .social-media .icon {
 .tours-row-one .row .image-three {
   width: 236px;
   height: 304px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour-03.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-03.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .tours-row-one .row .image-three .header {
   text-align: center;
@@ -1082,24 +965,17 @@ footer .centered-content .social-media .icon {
   margin: 115px auto 0px auto;
 }
 .tours-row-two .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .tours-row-two .row .image-one {
   width: 236px;
   height: 304px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour-04.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-04.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .tours-row-two .row .image-one .header {
   text-align: center;
@@ -1129,14 +1005,11 @@ footer .centered-content .social-media .icon {
 .tours-row-two .row .image-two {
   width: 236px;
   height: 304px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour-05.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-05.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .tours-row-two .row .image-two .header {
   text-align: center;
@@ -1166,14 +1039,11 @@ footer .centered-content .social-media .icon {
 .tours-row-two .row .image-three {
   width: 236px;
   height: 304px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour-06.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-06.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .tours-row-two .row .image-three .header {
   text-align: center;
@@ -1207,24 +1077,17 @@ footer .centered-content .social-media .icon {
   margin: 40px auto;
 }
 .tours-row-three .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .tours-row-three .row .image-one {
   width: 236px;
   height: 304px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour-07.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-07.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .tours-row-three .row .image-one .header {
   text-align: center;
@@ -1254,14 +1117,11 @@ footer .centered-content .social-media .icon {
 .tours-row-three .row .image-two {
   width: 236px;
   height: 304px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour-08.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-08.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .tours-row-three .row .image-two .header {
   text-align: center;
@@ -1291,14 +1151,11 @@ footer .centered-content .social-media .icon {
 .tours-row-three .row .image-three {
   width: 236px;
   height: 304px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour-09.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-09.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .tours-row-three .row .image-three .header {
   text-align: center;
@@ -1336,15 +1193,9 @@ footer .centered-content .social-media .icon {
   padding-top: 25px;
   max-width: 980px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 .tours-footer .centered-content .logo {
   position: relative;
@@ -1366,12 +1217,8 @@ footer .centered-content .social-media .icon {
 }
 .tours-footer .centered-content .social-media {
   width: 112px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .tours-footer .centered-content .social-media .icon {
   height: 22.96px;
@@ -1383,14 +1230,9 @@ footer .centered-content .social-media .icon {
   .tours-hero {
     margin-top: 0px;
   }
-
   .tours-row-one .row {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
     width: 236px;
     margin: 20px auto;
   }
@@ -1403,14 +1245,9 @@ footer .centered-content .social-media .icon {
   .tours-row-one .row .image-three {
     margin-bottom: 20px;
   }
-
   .tours-row-two .row {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
     width: 236px;
     margin: 0 auto;
   }
@@ -1424,14 +1261,9 @@ footer .centered-content .social-media .icon {
   .tours-row-two .row .image-three {
     margin-bottom: 20px;
   }
-
   .tours-row-three .row {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
     width: 236px;
     margin: 0 auto;
   }
@@ -1445,7 +1277,6 @@ footer .centered-content .social-media .icon {
   .tours-row-three .row .image-three {
     margin-bottom: 20px;
   }
-
   .tours-footer {
     margin-top: 1850px;
   }
@@ -1457,19 +1288,14 @@ footer .centered-content .social-media .icon {
   .tours-footer .centered-content {
     width: 300px;
     margin: 0 auto;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 }
 .israel-hero {
   width: 980px;
   height: 413px;
   margin: 0 auto;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour-01.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-01.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -1500,12 +1326,8 @@ footer .centered-content .social-media .icon {
   padding-bottom: 10px;
 }
 .images .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .images .row .image-one {
   width: 298px;
@@ -1514,9 +1336,7 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .images .row .image-two {
   width: 298px;
@@ -1525,9 +1345,7 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .images .row .image-three {
   width: 298px;
@@ -1536,16 +1354,13 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .usa-hero {
   width: 980px;
   height: 413px;
   margin: 0 auto;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour-02.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-02.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -1576,12 +1391,8 @@ footer .centered-content .social-media .icon {
   padding-bottom: 10px;
 }
 .usa-images .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .usa-images .row .image-one {
   width: 298px;
@@ -1590,9 +1401,7 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .usa-images .row .image-two {
   width: 298px;
@@ -1601,9 +1410,7 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .usa-images .row .image-three {
   width: 298px;
@@ -1612,16 +1419,13 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .australia-hero {
   width: 980px;
   height: 413px;
   margin: 0 auto;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour-03.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-03.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -1652,12 +1456,8 @@ footer .centered-content .social-media .icon {
   padding-bottom: 10px;
 }
 .aus-images .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .aus-images .row .image-one {
   width: 298px;
@@ -1666,9 +1466,7 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .aus-images .row .image-two {
   width: 298px;
@@ -1677,9 +1475,7 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .aus-images .row .image-three {
   width: 298px;
@@ -1688,16 +1484,13 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .nz-hero {
   width: 980px;
   height: 413px;
   margin: 0 auto;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-04.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -1728,12 +1521,8 @@ footer .centered-content .social-media .icon {
   padding-bottom: 10px;
 }
 .nz-images .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .nz-images .row .image-one {
   width: 298px;
@@ -1742,9 +1531,7 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .nz-images .row .image-two {
   width: 298px;
@@ -1753,9 +1540,7 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .nz-images .row .image-three {
   width: 298px;
@@ -1764,16 +1549,13 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .france-hero {
   width: 980px;
   height: 413px;
   margin: 0 auto;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-05.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -1804,12 +1586,8 @@ footer .centered-content .social-media .icon {
   padding-bottom: 10px;
 }
 .france-images .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .france-images .row .image-one {
   width: 298px;
@@ -1818,9 +1596,7 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .france-images .row .image-two {
   width: 298px;
@@ -1829,9 +1605,7 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .france-images .row .image-three {
   width: 298px;
@@ -1840,16 +1614,13 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .egypt-hero {
   width: 980px;
   height: 413px;
   margin: 0 auto;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-06.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -1880,12 +1651,8 @@ footer .centered-content .social-media .icon {
   padding-bottom: 10px;
 }
 .egypt-images .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .egypt-images .row .image-one {
   width: 298px;
@@ -1894,9 +1661,7 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .egypt-images .row .image-two {
   width: 298px;
@@ -1905,9 +1670,7 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .egypt-images .row .image-three {
   width: 298px;
@@ -1916,16 +1679,13 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .japan-hero {
   width: 980px;
   height: 413px;
   margin: 0 auto;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-07.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -1956,12 +1716,8 @@ footer .centered-content .social-media .icon {
   padding-bottom: 10px;
 }
 .japan-images .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .japan-images .row .image-one {
   width: 298px;
@@ -1970,9 +1726,7 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .japan-images .row .image-two {
   width: 298px;
@@ -1981,9 +1735,7 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .japan-images .row .image-three {
   width: 298px;
@@ -1992,16 +1744,13 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .canada-hero {
   width: 980px;
   height: 413px;
   margin: 0 auto;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-08.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -2032,12 +1781,8 @@ footer .centered-content .social-media .icon {
   padding-bottom: 10px;
 }
 .canada-images .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .canada-images .row .image-one {
   width: 298px;
@@ -2046,9 +1791,7 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .canada-images .row .image-two {
   width: 298px;
@@ -2057,9 +1800,7 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .canada-images .row .image-three {
   width: 298px;
@@ -2068,16 +1809,13 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .uae-hero {
   width: 980px;
   height: 413px;
   margin: 0 auto;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-09.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -2108,12 +1846,8 @@ footer .centered-content .social-media .icon {
   padding-bottom: 10px;
 }
 .uae-images .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .uae-images .row .image-one {
   width: 298px;
@@ -2122,9 +1856,7 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .uae-images .row .image-two {
   width: 298px;
@@ -2133,9 +1865,7 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .uae-images .row .image-three {
   width: 298px;
@@ -2144,9 +1874,7 @@ footer .centered-content .social-media .icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .day-1 {
@@ -2241,18 +1969,13 @@ footer .centered-content .social-media .icon {
     right: 0;
     bottom: -215px;
   }
-
   .images {
     width: 300px;
     margin: 0 auto;
   }
   .images .row {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   .images .row .image-one {
     width: 298px;
@@ -2266,7 +1989,6 @@ footer .centered-content .social-media .icon {
     width: 298px;
     margin: 20px auto;
   }
-
   .usa-hero {
     width: 300px;
   }
@@ -2278,18 +2000,13 @@ footer .centered-content .social-media .icon {
     right: 0;
     bottom: -215px;
   }
-
   .usa-images {
     width: 300px;
     margin: 0 auto;
   }
   .usa-images .row {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   .usa-images .row .image-one {
     width: 298px;
@@ -2303,7 +2020,6 @@ footer .centered-content .social-media .icon {
     width: 298px;
     margin: 20px auto;
   }
-
   .australia-hero {
     width: 315px;
   }
@@ -2315,18 +2031,13 @@ footer .centered-content .social-media .icon {
     right: 0;
     bottom: -215px;
   }
-
   .aus-images {
     width: 315px;
     margin: 0 auto;
   }
   .aus-images .row {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   .aus-images .row .image-one {
     width: 298px;
@@ -2340,7 +2051,6 @@ footer .centered-content .social-media .icon {
     width: 298px;
     margin: 20px auto;
   }
-
   .nz-hero {
     width: 300px;
   }
@@ -2352,18 +2062,13 @@ footer .centered-content .social-media .icon {
     right: 0;
     bottom: -125px;
   }
-
   .nz-images {
     width: 300px;
     margin: 0 auto;
   }
   .nz-images .row {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   .nz-images .row .image-one {
     width: 298px;
@@ -2377,7 +2082,6 @@ footer .centered-content .social-media .icon {
     width: 298px;
     margin: 20px auto;
   }
-
   .france-hero {
     width: 300px;
   }
@@ -2389,18 +2093,13 @@ footer .centered-content .social-media .icon {
     right: 0;
     bottom: -215px;
   }
-
   .france-images {
     width: 300px;
     margin: 0 auto;
   }
   .france-images .row {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   .france-images .row .image-one {
     width: 298px;
@@ -2414,7 +2113,6 @@ footer .centered-content .social-media .icon {
     width: 298px;
     margin: 20px auto;
   }
-
   .egypt-hero {
     width: 300px;
   }
@@ -2426,18 +2124,13 @@ footer .centered-content .social-media .icon {
     right: 0;
     bottom: -215px;
   }
-
   .egypt-images {
     width: 300px;
     margin: 0 auto;
   }
   .egypt-images .row {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   .egypt-images .row .image-one {
     width: 298px;
@@ -2451,7 +2144,6 @@ footer .centered-content .social-media .icon {
     width: 298px;
     margin: 20px auto;
   }
-
   .japan-hero {
     width: 300px;
   }
@@ -2463,18 +2155,13 @@ footer .centered-content .social-media .icon {
     right: 0;
     bottom: -215px;
   }
-
   .japan-images {
     width: 300px;
     margin: 0 auto;
   }
   .japan-images .row {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   .japan-images .row .image-one {
     width: 298px;
@@ -2488,7 +2175,6 @@ footer .centered-content .social-media .icon {
     width: 298px;
     margin: 20px auto;
   }
-
   .canada-hero {
     width: 300px;
   }
@@ -2500,18 +2186,13 @@ footer .centered-content .social-media .icon {
     right: 0;
     bottom: -215px;
   }
-
   .canada-images {
     width: 300px;
     margin: 0 auto;
   }
   .canada-images .row {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   .canada-images .row .image-one {
     width: 298px;
@@ -2525,7 +2206,6 @@ footer .centered-content .social-media .icon {
     width: 298px;
     margin: 20px auto;
   }
-
   .uae-hero {
     width: 300px;
   }
@@ -2537,18 +2217,13 @@ footer .centered-content .social-media .icon {
     right: 0;
     bottom: -215px;
   }
-
   .uae-images {
     width: 300px;
     margin: 0 auto;
   }
   .uae-images .row {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   .uae-images .row .image-one {
     width: 298px;
@@ -2585,8 +2260,6 @@ footer .centered-content .social-media .icon {
   max-width: 980px;
   min-height: 287px;
   margin: 50px auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .row .one {
@@ -2648,8 +2321,6 @@ footer .centered-content .social-media .icon {
   max-width: 980px;
   min-height: 287px;
   margin: 50px auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-bottom: 40px;
 }
@@ -2711,12 +2382,8 @@ footer .centered-content .social-media .icon {
 @media only all and (max-width: 650px) {
   .row {
     width: 300px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   .row .one {
     width: 199px;
@@ -2741,15 +2408,10 @@ footer .centered-content .social-media .icon {
     width: 133px;
     margin: 0 auto;
   }
-
   .row2 {
     width: 300px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   .row2 .one {
     width: 199px;
@@ -2773,258 +2435,5 @@ footer .centered-content .social-media .icon {
   .row2 .two .text .lorem button {
     width: 133px;
     margin: 0 auto;
-  }
-}
-.blog-header .header {
-  font-size: 30px;
-  padding-left: 100px;
-  position: relative;
-  letter-spacing: 5px;
-}
-.blog-header .border {
-  border-bottom: 2px solid black;
-  width: 12%;
-  position: absolute;
-  left: 100px;
-  bottom: -7px;
-}
-
-.blog-section {
-  max-width: 980px;
-  min-height: 259px;
-  padding-top: 40px;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.blog-section .date {
-  width: 60px;
-  height: 60px;
-  background-color: #79ADDC;
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.blog-section .date span {
-  font-size: 22px;
-  text-align: center;
-}
-.blog-section .date .month {
-  font-size: 12px;
-}
-.blog-section .blog-image {
-  background-image: url(../images/blog.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 900px;
-  height: 259px;
-}
-
-.blog-text {
-  max-width: 650px;
-  padding-bottom: 30px;
-  padding-left: 80px;
-}
-.blog-text .lorem .header {
-  font-size: 15px;
-}
-.blog-text .lorem .text {
-  color: #79ADDC;
-  font-size: 13px;
-}
-
-@media only all and (max-width: 980px) {
-  .blog-section {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    width: 500px;
-    margin: 0 auto;
-  }
-  .blog-section .date {
-    width: 60px;
-    margin: 0 auto 20px;
-  }
-  .blog-section .blog-image {
-    width: 500px;
-    margin: 0 auto;
-  }
-
-  .blog-text {
-    width: 500px;
-    margin: 0 auto;
-    padding-left: 0px;
-  }
-}
-@media only all and (max-width: 570px) {
-  .blog-section {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    width: 300px;
-    margin: 0 auto;
-  }
-  .blog-section .date {
-    width: 60px;
-    margin: 0 auto 20px;
-  }
-  .blog-section .blog-image {
-    width: 300px;
-    margin: 0 auto;
-  }
-
-  .blog-text {
-    width: 300px;
-    margin: 0 auto;
-    padding-left: 0px;
-  }
-}
-.contact-header .header {
-  font-size: 30px;
-  padding-left: 100px;
-  position: relative;
-  letter-spacing: 5px;
-}
-.contact-header .border {
-  border-bottom: 2px solid black;
-  width: 16%;
-  position: absolute;
-  left: 100px;
-  bottom: -7px;
-}
-
-.contact-section {
-  max-width: 980px;
-  min-height: 750px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 40px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 0 auto;
-}
-.contact-section .map-section {
-  max-width: 400px;
-}
-.contact-section .map-section .map {
-  background-image: url(../images/map.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 400px;
-  height: 442px;
-}
-.contact-section .map-section .address {
-  padding-top: 20px;
-  width: 400px;
-  height: 161px;
-}
-.contact-section .map-section .address p {
-  font-size: 18px;
-  font-family: GillSansLight;
-  letter-spacing: 1px;
-}
-
-.contact-section .form-section .input-wrapper {
-  width: 100%;
-}
-.contact-section .form-section .input-wrapper .name-field {
-  width: 100%;
-  padding: 20px;
-  border: none;
-  background-color: #F5F5F5;
-  font-size: 16px;
-  margin-bottom: 22px;
-}
-.contact-section .form-section .input-wrapper .message-field {
-  width: 100%;
-  height: 199px;
-  padding-bottom: 140px;
-  padding-left: 20px;
-  border: none;
-  background-color: #F5F5F5;
-  font-size: 16px;
-  margin-bottom: 20px;
-}
-.contact-section .form-section .send-button {
-  width: 529px;
-}
-.contact-section .form-section .send-button button {
-  height: 60px;
-  width: 167px;
-  padding: 10px;
-  background-color: #79ADDC;
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-@media only all and (max-width: 1010px) {
-  .contact-header {
-    width: 400px;
-    margin: 0 auto;
-  }
-
-  .contact-section {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .contact-section .map-section {
-    width: 400px;
-    margin: 0 auto;
-  }
-  .contact-section .map-section .address {
-    text-align: center;
-  }
-  .contact-section .form-section {
-    width: 529px;
-    margin: 20px auto;
-  }
-}
-@media only all and (max-width: 560px) {
-  .contact-section {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .contact-section .map-section {
-    width: 400px;
-    margin: 0 auto;
-  }
-  .contact-section .map-section .address {
-    text-align: center;
-  }
-  .contact-section .form-section {
-    width: 400px;
-    margin: 20px auto;
   }
 }
